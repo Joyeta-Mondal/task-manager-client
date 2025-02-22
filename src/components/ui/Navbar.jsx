@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
           </ul> */}
         </div>
-        <a className="btn btn-ghost text-xl">TaskZen</a>
+        <a className="btn btn-ghost text-xl">𝖳𝖺𝗌𝗄𝖲𝗉𝗁𝖾𝗋𝖾</a>
       </div>
       {/* <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
