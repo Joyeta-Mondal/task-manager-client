@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-indigo-300 shadow-sm px-8 text-yellow-100">
+    <div className="navbar bg-blue-300 shadow-sm px-8 text-orange-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -90,7 +90,7 @@ const Navbar = () => {
       </div> */}
       <div className="navbar-end flex gap-x-4">
         <button
-          className="px-4 py-2 bg-yellow-200 rounded-xl text-lg text-gray-600 font-semibold cursor-pointer hover:bg-yellow-400 flex gap-x-2 items-center"
+          className="px-4 py-2 bg-orange-200 rounded-xl text-lg text-gray-600 font-semibold cursor-pointer hover:bg-yellow-400 flex gap-x-2 items-center"
           onClick={() => document.getElementById("AddTaskModal").showModal()}
         >
           <p>Add Task</p>
@@ -99,14 +99,14 @@ const Navbar = () => {
         {user ? (
           <button
             onClick={() => handleLogout()}
-            className="px-4 py-2 bg-yellow-200 rounded-xl text-lg text-gray-600 font-semibold cursor-pointer hover:bg-yellow-400"
+            className="px-4 py-2 bg-orange-200 rounded-xl text-lg text-gray-600 font-semibold cursor-pointer hover:bg-yellow-400"
           >
             Logout
           </button>
         ) : (
           <button
             onClick={() => navigate("/login")}
-            className="px-4 py-2 bg-yellow-200 rounded-xl text-lg text-gray-600 font-semibold cursor-pointer hover:bg-yellow-400"
+            className="px-4 py-2 bg-orange-200 rounded-xl text-lg text-gray-600 font-semibold cursor-pointer hover:bg-yellow-400"
           >
             Login
           </button>
